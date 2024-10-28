@@ -1,0 +1,432 @@
+AGENDA 3 Feb 2024
+
+Software/Application - Program
+
+Programming Language
+Machine Language
+Compilation 
+
+[SDLC - Software Development Life Cycle] - Briefly
+-----------------------------------
+ALGORITHMS - Pseudocode
+-----------------------------------
+Variables / Datatypes
+Operators
+Functions / Methods-
+Constructs & Loops
+[DataStructures]
+
+===================================
+WRITE PSEUDOCODES algo
+===================================
+Software Application
+
+
+Program designed to do something
+
+Commands
+
+Business Processes 
+HR/Payroll
+
+Insurance
+banking
+
+Manually Ledgers/Journals/Files/Documentation
+|
+AUTOMATE - COMPUTERIZE
+
+[SOFTWARE]<-[multiple Program] <- [Group of Instructions]
+|
+fed 
+---------------------
+Programming Language
+
+Computers - Electonic machine 0 and 1 Binary signals Digital
+DC current
+
+120V /240 V AC NO
+
+12v DC 
+
+Elect [ 0  /1 ] - Machine
+
+----
+Programming
+High Level Language [Java /Csharp/ C++ /PHP /Javascript/Python/VB / VC++
+
+|
+COMPILER tool
+|
+--AssemblyLevel Program
+MachineLevel - Low Level - Binary Language[0/1] Electronic [0/1]
+-------------
+============================================
+Software]-IT[ Process] maintenable/find/extensible
+
+[5] lot 
+Problem] banking/insurance/
+|
+IT Solutions
+
+Banking - Software
+		Aeronautical
+		Space Org
+----------
+SDLC
+7 Phases
+-------------
+1)Inception [ feasibility/ ROI/ ]
+2)Analysis architects/analysts[
+SRS-Software Requirement Specification  ideas gathering/brain storming
+ERS-Engineering requirement Specification
+----
+cost analyses/teams/time/ 
+
+ doc- Analyse Requirements[customer/requiremn]
+3)Design ALGORITHM+ [ Model UML Unified Modelling Language]_pseudocode
+4)Construction/Implementation<------- CODING
+5)Testing [efficiency/effectiveness]
+6)Deployment
+7)Maintenance[ enhanced ]
+
+5yrs 6mon
+--------------
+2 Numbers sum , product , reminder
+1 million employee record sort
+algo1   algo2
+
+ALGO - [PSEUDOCODE
+[
+accept - store containers
+use operator add store the result in container called sum
+use operator product store the result in container called product
+logics 
+
+
+]
+
+
+ALGORITHM [a set of steps in the form of logics/ideas involved in arriving at a solution for a
+Given problem]
+[ - Language AGNOSTIC
+PSEUDOCODE are codes written in an INformal language
+[contain/logics/algorithms to solve a problem]
+PLT Programming Logic and Technique[looping, if else]
+terminologies - elements of code variable/operator
+]
+|
+program  [ Translate the pseudocode into the actual programming language]
+|
+Compiler
+|
+Machine
+------------------
+VARIABLES & DATATYPES
+Variable - Container to store data
+
+Container1 -- first number  [VARIABLES]
+Container2 -- second number
+resultSum = firstNumber + secondNumber [ 85 Eightfive + 95
+Container - employeename [characters/String]
+Cobtainer - employeeAddress [ 1/2 sterling street city1 289922]
+
+DATATYPE - represents the type of data a Variable is containing
+integer [int float double]
+character/String[alphanumeric
+price 23.45
+boolean [true false]
+
+
+Isvegetarion [ true/false]
+
+Java		C#
+boolean		boolean		bool
+Boolean
+
+Operators
+Mathematical [+ - /  * ]
+Comparison Operator < <= > >= <> !=
+Logical  and or
+
+
+[
+[container1]-Oranges Cont2-Apples[oranges]
+------------
+Containers
+
+
+
+]
+
+Operator {mathematical(+) / logical & Comparison
+
+
+75
+if score > 70  and score < 100distic
+
+
+[MEMORY - RAM][HARDDISC - Permanent Memory]
+MB
+
+CONSTRUCTS & LOOPS
+
+Constructs Are mechanism using which
+we take the course of the program in a particular
+direction based on the condition it satisfies
+
+if else
+if else if 
+
+score
+if(score >50)
+
+result = passed
+
+else
+
+result = failed
+
+if condition
+do this
+else if condition 2
+do this x
+else if condition 3
+do this y
+else
+do this z
+
+
+================================================================
+English
+[
+steps/logics/
+]
+
+|
+
+java		CSharp
+
+=================================PSEUDOCODE=======================================
+1)Write an algorithm in pseudo-code to get a name from the user and display a greeting to the user.
+
+PSEUDOCODE			JAVASCRIPT			JAVA
+display "Enter Your Name "  | console.log("Enter Your Name")| System.out.println("Enter Your name")
+								system
+String employeeName
+int employeeSalary not mandatory in pseudocode
+=================================================
+NAMING CONVENTION
+CAMEL CASING
+---------------------
+start
+	display "Enter Your Name"
+	read employeeName     
+	display "Hello Good Morning"+employeeName
+stop
+-------------------
+
+Hello Good Morning Phillip
+
+variables
+unirformity
+CODING PRACTICES & NAMING CONVENTION
+====================================
+ 6   22:40   will be back by 22.46 IST
+----------------------------
+Javascript/Java/CSharp /* 
+				 */
+
+
+-------------------
+2. Write a simple algorithm in pseudo-code 
+that takes two numbers as input and displays their sum, difference, product, and division.
+/*this is comment to understand
+not to be executed in the code
+firstNumber is a variable
+*/
+
+start
+	display "Enter First Number"
+	read firstNumber   
+	display "Enter Second Number"
+	read secondNumber
+	resultSum = firstNumber + secondNumber 
+	display "Sum of your Numbers is "+resultSum
+	resultDifference = firstNumber - secondNumber
+	display "Difference of Your Numbers is "+resultDifference
+	resultProduct = firstNumber * secondNumber
+	display "Product of Your Numbers is "+resultProduct
+	resultDivision = firstNumber / secondNumber
+	display "DivisionResult is "+resultDivision
+stop
+-------------------
+3) Write an algorithm in pseudo-code that takes two numbers as input and displays the larger of the two.
+
+
+start
+	display "Enter the First Number"
+	read firstNumber
+	display "Enter the Second Number"
+	read secondNumber
+	if firstNumber > secondNumber then
+		display "FirstNumber is Larger"
+	else 
+		display "SecondNumber is Larger"
+stop
+
+OR
+
+start
+	display "Enter the First Number"
+	read firstNumber
+	display "Enter the Second Number"
+	read secondNumber
+	if firstNumber > secondNumber then
+		display "FirstNumber is Larger"
+	else if secondNumber > firstNumber then
+		display "SecondNumber is Larger"
+	else
+		display "Both are equal"
+stop
+
+=============
+4. Write an algorithm in pseudo-code that takes a number as 
+input and displays whether it's positive, negative, or zero.
+
+start
+	display "Enter a Number"
+	read aNumber
+	if aNumber > 0 then
+		display "The Number "+aNumber+" Is Positive " 
+		OR
+		display "The Number is Positive "+aNumber
+	/* The Number 200 Is Postive */ 
+	/* The Number is Positive 200
+	else if aNumber < 0 then
+		display "The Number"+aNumber+" is Negative" /* The Number -200 is Negative */
+	else
+		display "The Number "+aNumber+" is Zero"
+stop
+=============
+5. Write an algorithm in pseudo-code that takes three numbers 
+as input from the user and calculates their average value.
+
+start
+	display "Enter First Number"
+	read firstNumber
+	display "Enter Second Number"
+	read secondNumber
+	display "Enter Third Number"
+	read thirdNumber
+	averageValue = (firstNumber + secondNumber + thirdNumber )/ 3
+	display "The Average of your Numbers is "+averageValue
+stop
+=============
+6. Write an algorithm in pseudo-code that converts temperature from Celsius to Fahrenheit.
+/* BODMAS 
+bracket of division multi addn sub  */
+start
+	display "Enter Temperature in Celsius"
+	read tempInCelsius
+	tempInFahrenheit = (tempInCelsius * 9 / 5) + 32
+display "The Temperature In Celsius "+tempInCelsius+" Converted to fahrenheit is "+tempInFahrenheit
+stop
+/*
+45*C
+The Temperature 45 In fahrenheit is 81
+
+*/
+=============
+7. Write an algorithm in pseudo-code that calculates simple interest 
+based on the principal amount, rate, and time.
+
+start
+	display "Enter the Principal Amount"
+	read principalAmt
+	display "Enter The Rate Of Interest"
+	read rateOfInterest
+	display "Enter the Time in Years"
+	read timeInYears
+	simpleInterest = (principalAmt * timeInYears * rateOfInterest)/100
+	display "The Simple Interest is "+simpleInterest
+	display "Principal Amount is "+principalAmt
+	display "Rate Of Interest is "+rateOfInterest
+	display "Time In Years is "+timeInYears
+
+stop
+
+=============
+
+8. Write an algorithm in pseudo-code that takes a number as input and displays the sum of its square and its cube.
+
+9 = (9*9)+(9*9*9)
+
+start
+	display "Enter a Number"
+	read aNumber
+	squareOfNumber = aNumber * aNumber
+	cubeOfNumber = aNUmber * aNumber * aNumber
+	sumOfSquareAndCube = squareOfNumber + cubeOfNumber
+	display "The Sum of Square and Cubes of The Number "+aNumber+" is "+sumOfSquareAndCube 
+stop
+
+=============
+9. Write an algorithm in pseudo-code that calculates the ticket price 
+for a movie based on the age of the customer as per the following criteria –
+Age				Price
+Children (age <= 12)		$5
+Adults (age > 12 and <= 65)	$10
+Seniors (age > 65)		$7
+
+/*  
+10 30 70
+ */
+start
+	display "Enter The Age"
+	read age
+	if age <= 12 then
+		ticketPrice = 5
+	else if (age > 12) and (age <= 65) then
+		ticketPrice = 10
+	else if age > 65 then
+		ticketPrice = 7
+	display "the Price is $"+ticketPrice
+	display "Age is "+age
+	
+stop
+TRUTH
+	Operator And  OR
+	T   T    T     T
+	T   F	 F     T
+	F    F   F     F  	
+	F    T   F     T
+
+25   T     T    T
+
+=======================
+10. Write an algorithm that determines if a given year is a leap year or not. 
+Leap years are divisible by 4, but if they are divisible by 100, they must also be divisible by 400.
+
+year % 100 != 0
+
+1900 / 100 TRUE NOT DIVISBLE BY 400 NOT A LEAP YEAR
+
+1928 / 4
+2024 
+2000
+
+
+start
+	display "Enter The Year"
+	read year
+	if ( year divisible by 4 and year not divisible by 100)
+		or (year divisible by 100 and divisible by 400) then
+	result = LeapYear
+	else
+	result = NotALeapYear
+	display "Your Entered Year is "+result
+stop
+
+===============================
+
