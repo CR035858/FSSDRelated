@@ -1,0 +1,524 @@
+AGENDA : 10 Feb 2024
+---------------------------------------
+Loops
+	while /for /do while 
+Constructs
+	if else Completed
+	if else if Completed
+	switch
+Arrays
+[Pseudocodes ]
+[DataStructures
+Methods / Functions]
+---------------------------------------
+[LOOPS]
+
+Loops 
+
+Looping is a technique used when we want to repeat a task
+based on a condition
+
+
+while
+for
+do while
+------
+while (condition)
+	begin    
+
+	statement1
+	statement2
+	statement3
+
+	end	
+
+----->
+variables /datatype
+
+Operators
+Mathematical 
++ add
+-  subtraction
+* for multiplication
+/ division
+
+++ increment
+-- decrement
+set num = 10
+set result = num + 4
+
+comparison
+>
+>=
+<
+<=
+!=
+==
+
+
+Logical
+and or not
+--------
+set num = 10
+num++     // num++(post increment) vs ++num(pre increment)
+
+-----> num = num+1 // increment num1 by 1
+num--
+-----> num = num -1
+
+----->
+--------------------
+while
+
+display numbers 1 to 10
+
+start
+// DISPLAYING NUMBERS 1 to 10
+	set num = 1;  set num = 0
+	while num < 10	// repeat step1 and 2  as long as num < 10 					
+		begin
+			  step1
+			
+			display "The Number is "+num ; step2
+			num++ 
+		end
+2 10   9
+1 10   10 CORRECT
+----
+stop
+CONCATENATION of text and a value present in a variable
+set num1 = 100
+num1 = num1+5
+
+
+The Number is 1
+The Number is 2
+The Number is 3
+The Number is 4
+The Number is 5
+---
+
+
+		10
+
+; SENTENCE TERMINATOR FOR MOST OF THE PROGRAMMING LANGUAGES
+// COMMENT
+
+-------------------------------------------------------------------
+
+while
+do while
+for
+
+while (condition)		do
+	begin				begin
+
+
+	end				end 
+					while (condition)
+
+---------------------------------------
+= assignment   				
+== comparison operator
+
+set reply = "yes" // initialization
+
+	while (reply == "yes") // comparing both sides
+		do 
+			book ticket-----{}
+
+			display "do you wish to continue yes/no"
+			read reply
+		end
+
+
+
+do
+---------------------------
+	 // comparing both sides
+		do
+			book ticket-----{}
+
+			display "do you wish to continue yes/no"
+			read reply
+		end 
+		while (reply == "yes")
+-------------
+ITERATION 2nd 
+for sure about the number of iterations clearly
+for(a value from x to y)
+	begin  {
+
+	end    }
+---------------
+for(num = 1 to 10) // PSEUDOCODE
+	begin
+		display "Number is "+num
+	end
+
+------------------------
+     1       2       3
+for(num =1; num <= 10;num++)
+	begin
+		display "Num is "+num
+	end
+
+1) Initialization takes place only once
+2) Condition check it takes place for every iteration
+3) Operation (increment or Decrement) takes place after the iteration
+===================================
+ARRAY
+------
+7 PSEUDOCODES
+
+=====================================
+ARRAY : Variables DATATYPE
+
+Name  
+String int float boolean
+
+
+addres
+ 1/23 , berlie Street, Bangalore 560007
+
+salary
+ TWO HUNDRED
+
+int
+
+123.45
+
+ARRAY GROUP OF VARIABLES HAVING SAME DATATYPE & NAME
+
+100 students score
+
+declare score1 as int // PSEUDOCODE      JAVASCRIPT [var score1="hello"]   JAVA [int score1] 
+
+declare score2 as int
+declare score3 as int
+declare score3 as int
+declare score4 as int
+---
+
+----
+
+---
+declare score100 as int
+
+declare scores[10] as int
+==================================================
+
+declare scores[3][5] as int
+
+First student first subject score
+score [0][0] =78
+
+First student second subject score
+
+score[0][1] = 89
+
+
+MULTIPLE ROWS MEMORY
+
+
+PROGRAME
+
+10 Employees
+
+Expected Salary Current
+
+SalaryStr[10][2]
+
+DATABASE - HARD DISK PERMANENT
+
+COLLECTIONS/DATASTRUCTURES[[[[
+
+VARIABLE S ARRAYS - DATASTRUCTURE [LinkedList / Stack / Queue]
+
+----------------
+PSEUDOCODES
+
+1)
+Write an algorithm in pseudo-code to display the sum of all numbers from 1 to 10.
+
+1+2+3+4+5+6+7+8+9+10 = 55
+
+
+start
+	set sum = 0
+	set num = 1       //increment 1 upto 10
+	while (num <= 10)  
+		begin
+			sum = sum + num
+			num++   -------> num =  num+1   
+		end
+		display "The sum of numbers from 1 to 10"+sum
+stop
+====================================
+2. Write a simple algorithm in pseudo-code that takes two numbers as input and displays the sum of all the numbers between those two numbers (inclusive).
+
+
+num1 = 2
+num2 = 8
+2 + 3 + 4 + 5 + 6 + 7 +8 = 35
+
+num1 = 5
+num2 = 10
+5 + 6 + 7 + 8 + 9 + 10 = 45
+
+num1 = 2
+num2 = 5
+2 + 3 + 4 + 5 = 14
+
+start
+	display "Enter first number"
+	read num1
+	display "Enter second number"
+	read num2
+	set sum = 0;
+	while num1 <= num2
+		begin
+			sum = sum + num1
+			increment num1 by 1(num1++ ---> num1 )
+		end
+stop
+
+increment a number --> we add a value 1 to the existing value 
+
+num1 = 10 ---> 11
+
+JAVASCRIPT / JAVA
+DYI PSEUDOCODE
+==============================
+3. Write an algorithm in pseudo-code that calculates and displays the factorial of a given number.
+
+
+5
+5 X 4 X 3 X 2 X 1 = 120
+Factorial of 5 is 120
+
+
+4
+4 X 3 X 2 X 1 = 24
+Factorial of 4 is 24
+
+
+6
+6 X 5 X 4 X 3 X 2 X 1 = 720
+x
+factorial x * (x-1) * (x-2) * (x-3)
+
+
+factorial of 6 = 720
+-------------------
+
+start
+	display "Enter a Number"   
+	read num1
+	set factorial = 1;
+	while (num1 >= 1)
+		begin
+			factorial = factorial * num1
+			decrease num1 by 1 // num1--
+		end
+	display "the Factorial of your number is " + factorial
+stop
+======================
+for(5)
+{
+accept scores[x]       x[0 to 4]
+}
+======
+4)
+Write an algorithm in pseudo-code to find the length of an array.
+
+var scores = [78,89,90,85,86]; // ACTUAL CODE OF JAVASCRIPT
+
+var scores = [78,89,90,85,86,90,97,85];
+start
+	set scores = [78,89,90,85,86,90,97,85];
+	set length = 0;
+	for( every value in scores(array)) // for(var x : scores)
+		begin
+			length++;  // 1 2
+		end
+	display "the length of the array is "+length
+
+stop
+
+=============
+5. Write an algorithm in pseudo-code an algorithm in pseudo-code to find the 
+largest number in an array.
+
+
+
+largest = 0
+----do check
+if( x > largest )
+{
+	largest = x
+}
+
+first largest 78
+second iteration largest = 89
+third iteratiron largest = 90
+4th ---largest 90
+5th dont take
+6th dont take
+7  largest = 91
+largest = 97
+
+==========================
+start
+	set scores = [78,89,90,85,86,91,97,85]
+	set largest = 0
+	for (every value in scores)  //
+		begin
+			if ( value > largest) then
+				largest = value
+		end
+	display "The largest element of array "+largest
+stop
+==========================
+				0	x < 8    x++	
+for(var x : scores)        for(var x=0;x < scores.length ;x++)
+{				{
+
+
+}				}
+
+==========================
+6)
+Write an algorithm in pseudo-code that reverses a string and checks whether it's a palindrome or not. A palindrome is a sequence of characters (like a string) that reads the same forward as it does backward. For e.g. radar, dad, madam, etc
+
+radar this is a Palindrome
+
+
+chandra this is not a Palindrome
+
+ardnahc
+
+
+MoM this is a Palindrome
+
+MoM
+
+
+DaD this is a Palidnrome
+
+DaD
+
+malayalam
+
+malayalam
+
+english
+
+hsilgne it is not a palindrome
+
+Liril
+
+liriL not a palindrome
+LiriL this is a Palindrome
+01234
+hello
+index = length-1
+length = 5
+newIndex  = 0
+newString = olleh
+
+
+for( every character in myString from length-1 to 0) /// charAt(x)   x = 0 to length-1 readymade methods
+{
+
+newString[newIndex]
+newIndex++;
+}
+
+=====================
+
+start
+	display "Enter a String"
+	read myString;
+	set strLength = find length of myString  // myString.length() readymade
+	set newIndex = 0;
+	set reversedString = "";
+	for( every character in myString from length-1 to 0)
+		begin
+			reversedString[newIndex] = character
+			newIndex++
+		end
+						  01234
+	display "Original String is "+myString // hello
+	display "Reversed String is "+reversedString // olleh
+							01234
+	set myIndex =0
+	set flag = false;
+	for(myIndex value from 0 to length-1)
+		begin
+				if(myString[myIndex] == reversedString[index])
+				flag = true
+				else
+				flag = false
+		end
+	if(flag == true) then
+		display "myString is a Palindrome"
+	else
+		display "myString is Not a Palindrome"
+	
+	
+
+stop
+================
+7. Write an algorithm in pseudo-code to print the multiplication table of a given number using loops.
+
+4
+
+4 X 1 = 4
+4 X 2 = 8
+4 X 3 = 12
+
+
+
+----
+
+4 X 10 = 40
+----------
+5 X 1 = 5
+5 X 2 = 10
+--
+--
+--
+5 X 20 = 50
+
+start
+	display "Enter a Number"
+	read num1
+	set result = 1;
+	set multiplier = 1
+	for( var x = 1; x <=20;x++) // every value from 1 to 10
+		begin
+			result = num1 * x
+			display "num1"+"X"+x+" = " + result // 5 X 1 = 5  5 X 2 = 10	
+		end
+
+
+
+stop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

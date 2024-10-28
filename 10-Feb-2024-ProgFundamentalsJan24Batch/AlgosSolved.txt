@@ -1,0 +1,142 @@
+1)
+Write an algorithm in pseudo-code to display the sum of all numbers from 1 to 10.
+
+set sum = 0
+set num1 = 1;
+	while num1 <= 10
+		begin
+			sum = sum + num1
+			num1++  
+		end 
+	end while
+	display "sum from 1 to 10 is "+sum
+
+
+
+
+----------------------------------------------
+2)
+Write a simple algorithm in pseudo-code that takes two numbers as input and displays the sum of all the numbers between those two numbers (inclusive).
+Start
+	set sum = 0
+	display "Enter first Number"
+	read num1
+	display "Enter Second Number"
+	read num2
+	while num1 <= num2
+		begin
+		sum = sum + num1	
+		num1++
+		end
+	end while
+
+	display "sum is " + sum
+Stop
+
+----------------------------------------------
+3)
+ Write an algorithm in pseudo-code that calculates and displays the factorial of a given number.
+5
+
+5 * 4 * 3 * 2 * 1 = 121
+
+start
+	display "Enter a Number"
+	read num
+	set factoial = 1
+	while   num >= 1
+	begin
+		factorial = factorial * (num)
+		num--
+	end 
+	end while		
+	display "factorial of the number is "+factorial
+stop
+----------------------------------------------
+4)
+Write an algorithm in pseudo-code to find the length of an array.
+
+start
+	set array = [10,20,30,40,50,60] // read array
+	set length = 0;
+	for every value in array
+		begin
+			length = length + 1
+		end
+	display "the length of the array " + length
+stop
+----------------------------------------------
+for(x =0;x < 10;x++)
+{
+
+
+}
+----------------------------------------------
+5)
+Write an algorithm in pseudo-code an algorithm in pseudo-code to find the largest number in an array.
+
+start
+	read array
+	set max = 1
+	array = [10,5,15,25,33,43,12]
+	for every element in array  // iterating through elements - traverse through the elements
+		begin
+			if element > max
+				max = element
+			end if	
+		end
+	end for
+	display "max of array is"+max
+	
+
+stop
+----------------------------------------------
+6)
+. Write an algorithm in pseudo-code that reverses a string and checks whether it's a palindrome or not.
+ A palindrome is a sequence of characters (like a string) that reads the same forward as it does backward. 
+For e.g. radar, dad, madam, etc
+
+	
+start
+	display "Enter a String"
+	read myStr
+	set flag = true
+	set reversedStr = ""
+	set lenStr = length of myStr
+	set index = lenStr - 1; 
+	while index >= 0
+		begin
+			reversedStr = reversedStr +  myStr[index]
+		end
+	end while
+	for i = 0 ; i< lenStr;i++
+		if reversedStr[i] == myStr[i]
+			flag = true	
+		else
+			flag = false
+	end for
+
+	if flag == true
+		display "It is Palindrome"
+	else
+		display "It is Not a Plaindrome"
+stop
+
+----------------------------------------------
+7. 
+Write an algorithm in pseudo-code to print the multiplication table of a given number using loops.
+
+begin
+	set count = 1;
+	display "Enter the Number to Print the Table for"
+	read num
+	for i =1, i <= 10, i++
+		begin
+			set result = num * i
+			display " Num X "+count+" = "+	result
+			count++
+		end
+	end for
+stop
+----------------------------------------------
+
